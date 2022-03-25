@@ -13,4 +13,6 @@ console.log(`A soma de ${a} com ${b} equivale a ${somar(a, b)} `);
 console.log(`A subtração de ${a} com ${b} equivale a ${subtrair(a, b)}`);
 console.log(`A multiplicação de ${a} com ${b} equivale a ${multiplicar(a, b)}`);
 console.log(`A divisão de ${a} com ${b} equivale a ${dividir(a, b)}`);
+console.log('Fim');
+
 
