@@ -19,5 +19,11 @@ const pessoa3 = {
 	idade: 13,
 };
 
+const animal = {
+	nome: 'Fiona',
+	idade: 5,
+}
+
 console.log(calculaIdade.call(pessoa3, 40));
 console.log(calculaIdade.apply(pessoa2, [24]));
+console.log(calculaIdade.call(animal, 7))
